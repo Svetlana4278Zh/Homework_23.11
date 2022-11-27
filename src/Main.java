@@ -13,6 +13,7 @@ public class Main {
             totalWithPercent = Math.ceil(totalWithPercent*101) / 100;
             System.out.println("Месяц "+month+", сумма накоплений равна "+totalWithPercent+" рублей");
         }
+
         //Задача 1.2
         System.out.println("\nЗадача 1.2");
         int number = 0;
@@ -25,6 +26,7 @@ public class Main {
             System.out.print(number+" ");
         }
         System.out.println();
+
         //Задача 1.3
         System.out.println("\nЗадача 1.3");
         int population = 12_000_000;
@@ -34,6 +36,7 @@ public class Main {
             population+=population*(bornInYear-diedInYear)/1000;
             System.out.println("Год "+year+", численность населения составляет "+population);
         }
+
         //Задача 2.1 и 2.2
         System.out.println("\nЗадача 2.1 и 2.2");
         int savings = 15000;
@@ -46,6 +49,7 @@ public class Main {
                 System.out.println("Месяц " + numberMonth + ", сумма накоплений " + savings);
             }
         }
+
         //Задача 2.3
         System.out.println("\nЗадача 2.3");
         savings = 15000;
@@ -57,6 +61,7 @@ public class Main {
                 System.out.println("Месяц " + numberMonth + ", сумма накоплений " + savings);
             }
         }
+
         //Задача 2.4
         System.out.println("\nЗадача 2.4");
         int dateFriday = 4;
@@ -64,6 +69,7 @@ public class Main {
             System.out.println("Сегодня пятница, "+dateFriday+"-е число. Необходимо подготовить отчет.");
             dateFriday += 7;
         }
+
         //Задача 3.1
         System.out.println("\nЗадача 3.1");
         int cometPeriod = 79;
@@ -77,6 +83,7 @@ public class Main {
             }
             yearOfComet += cometPeriod;
         } while (yearOfComet <= finish);
+
         //Задача 3.2
         System.out.println("\nЗадача 3.2");
         int multiplier = 2;
